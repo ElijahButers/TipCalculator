@@ -17,20 +17,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="Tip Callout" translatesAutoresizingMaskIntoConstraints="NO" id="cRr-WA-EGV">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" image="Tip Callout" translatesAutoresizingMaskIntoConstraints="NO" id="cRr-WA-EGV">
                                 <rect key="frame" x="28" y="253" width="101" height="78"/>
-                                <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" image="Tip Callout" translatesAutoresizingMaskIntoConstraints="NO" id="w9h-e5-zsk">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" image="Tip Callout" translatesAutoresizingMaskIntoConstraints="NO" id="w9h-e5-zsk">
                                 <rect key="frame" x="137" y="253" width="101" height="78"/>
                             </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="Tip Callout" translatesAutoresizingMaskIntoConstraints="NO" id="XZ6-Zf-KaX">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" image="Tip Callout" translatesAutoresizingMaskIntoConstraints="NO" id="XZ6-Zf-KaX">
                                 <rect key="frame" x="246" y="253" width="101" height="78"/>
-                                <autoresizingMask key="autoresizingMask"/>
                             </imageView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="BottomEdge" translatesAutoresizingMaskIntoConstraints="NO" id="tDW-De-TFI">
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" image="BottomEdge" translatesAutoresizingMaskIntoConstraints="NO" id="tDW-De-TFI">
                                 <rect key="frame" x="0.0" y="634" width="375" height="33"/>
-                                <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" image="Bill Box" translatesAutoresizingMaskIntoConstraints="NO" id="Mot-LP-92D">
                                 <rect key="frame" x="21" y="434" width="334" height="85"/>
@@ -109,10 +106,18 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tDW-De-TFI" secondAttribute="trailing" id="3wH-Tb-VHa"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EsY-BV-1KO" secondAttribute="trailing" constant="100" id="4Gx-DU-Aus"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="tDW-De-TFI" secondAttribute="bottom" id="79s-xp-qJe"/>
+                            <constraint firstItem="w9h-e5-zsk" firstAttribute="leading" secondItem="cRr-WA-EGV" secondAttribute="trailing" constant="8" id="8nP-KE-3L4"/>
                             <constraint firstItem="w9h-e5-zsk" firstAttribute="top" secondItem="EsY-BV-1KO" secondAttribute="bottom" constant="46" id="DHq-ew-rYP"/>
                             <constraint firstItem="EsY-BV-1KO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="101" id="Dic-lS-lfm"/>
                             <constraint firstItem="EsY-BV-1KO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="34" id="ERF-CW-BN6"/>
+                            <constraint firstItem="w9h-e5-zsk" firstAttribute="centerY" secondItem="cRr-WA-EGV" secondAttribute="centerY" id="QxJ-n3-LTB"/>
+                            <constraint firstItem="w9h-e5-zsk" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="VnX-pD-dYg"/>
+                            <constraint firstItem="tDW-De-TFI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="q0Z-Lz-NCa"/>
+                            <constraint firstItem="XZ6-Zf-KaX" firstAttribute="leading" secondItem="w9h-e5-zsk" secondAttribute="trailing" constant="8" id="rbT-sS-HQf"/>
+                            <constraint firstItem="w9h-e5-zsk" firstAttribute="centerY" secondItem="XZ6-Zf-KaX" secondAttribute="centerY" id="zAg-z4-LEK"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
